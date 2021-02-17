@@ -86,3 +86,29 @@ for(count=0; count <= 5; count++){
 //console.log(d.getMonth()+1);//tem que somar 1
 //console.log(d.getHours());
 //console.log(d.getMinutes()); 
+
+
+/* *********************************** */
+//FUNCOES
+/* *********************************** */
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+console.log(soma(10,10)); 
+
+function setReplace(frase, oldText, newText){
+    return frase.replace(oldText, newText);
+}
+console.log(setReplace("Vai Japão","Japão","Brasil")); 
+
+function validaIdade(idade){
+    if(idade >= 18){
+        return  true
+    }else{
+        return false;
+    }
+}
+var idade = prompt("Informe a idade");
+console.log(validaIdade(idade)); 
+
