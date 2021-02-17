@@ -78,3 +78,11 @@ for(count=0; count <= 5; count++){
     console.log(count);
 }*/
 
+/* *********************************** */
+//Data
+/* *********************************** */
+//var d = new Date();
+//console.log(d);
+//console.log(d.getMonth()+1);//tem que somar 1
+//console.log(d.getHours());
+//console.log(d.getMinutes()); 
