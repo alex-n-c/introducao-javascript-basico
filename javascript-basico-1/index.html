@@ -5,7 +5,7 @@
         <meta charset="utf-8"> 
         <script type="text/javascript" src="./js/main.js"></script>
     </head>
-    <body>
+    <body onload="load()">
         <!--
         <script>
             alert("meu alert js");            
@@ -13,6 +13,28 @@
         -->
 
         <h1>Minha pagina</h1>
+
+        <button type="button" onclick="clicou()">Clique aqui 1</button>
+        <br>
+        <button type="button" onclick="clicou2()">Clique aqui 2</button>
+        <h3 id="agradecimento"></h3>
+        <p id="agradecimento2"></p>
+        <br>
+        <button type="button" onclick="redirecionar()">Clique aqui 3</button>
+        <p id="redirecionar"  onclick="redirecionar()"> clique aquie e seja redirecionar para outro site</p>
+        <br>        
+        <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()" style="width: 200px ; border: 2px solid #000;">Passe o mouse</p>
+        <p id="mousemove2" onmouseover="trocar()" onmouseout="voltar()" style="width: 200px ; border: 2px solid #000;">Passe o mouse</p>
+        <br>
+        <br>    
+        <!--Utilizando parametros. Passando o proprio elemento-->    
+        <p onmouseover="trocar2(this)" onmouseout="voltar2(this)" style="width: 200px ; border: 2px solid #000;">Passe o mouse</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option> 
+        </select>
     </body>
 
 </html>

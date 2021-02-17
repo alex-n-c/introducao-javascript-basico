@@ -91,7 +91,7 @@ for(count=0; count <= 5; count++){
 /* *********************************** */
 //FUNCOES
 /* *********************************** */
-
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
@@ -111,4 +111,50 @@ function validaIdade(idade){
 }
 var idade = prompt("Informe a idade");
 console.log(validaIdade(idade)); 
+*/
 
+function clicou(){
+    alert("Obrigado por clicar.");
+}
+
+function clicou2(){
+    console.log(document.getElementById("agradecimento"));
+    document.getElementById("agradecimento").innerHTML = "Obrigado por <b>clicar</b>";
+    document.getElementById("agradecimento2").innerHTML = "Obrigado por <b>clicar</b>";
+}
+
+function redirecionar(){
+    //console.log(document.getElementById("redirecionar"));
+    //Abre em nova aba
+    window.open("https://www.google.com.br/");
+    //Abre na mesma aba
+    //window.location.href = "https://www.google.com.br/";
+}
+
+function trocar(){
+    //alert("Passou o mouse");    
+    document.getElementById("mousemove").innerHTML = "Passou o mouse";
+}
+
+function voltar(){
+    //alert("Passou o mouse");    
+    document.getElementById("mousemove").innerHTML = "Passe o mouse";
+}
+
+function trocar2(elemento){
+    //alert("Passou o mouse");    
+    elemento.innerHTML = "<b>Passou o mouse</b>";
+}
+
+function voltar2(elemento){
+    //alert("Passou o mouse");    
+    elemento.innerHTML = "Passe o mouse";
+}
+
+function load(){
+    console.log("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value); 
+}
