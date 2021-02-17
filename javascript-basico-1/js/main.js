@@ -50,3 +50,31 @@ var frutas = [{nome:"Maça", cor:"Vermelha"},
             ];
 console.log(frutas);            
 console.log(frutas[0].nome);*/
+
+
+/* *********************************** */
+//COMANDOS CONDICIONAIS
+/* *********************************** */
+/*//var idade = 18;
+var idade = prompt("Qual sua idade?");
+if(idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+}*/
+
+/* *********************************** */
+//COMANDOS DE REPETICAO
+/* *********************************** */
+/*var count = 0;
+while (count <= 10){
+    console.log(count);
+    //count = count + 1;
+    count++;
+}*/
+/*
+var count;
+for(count=0; count <= 5; count++){
+    console.log(count);
+}*/
+
