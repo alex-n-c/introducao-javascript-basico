@@ -113,6 +113,7 @@ var idade = prompt("Informe a idade");
 console.log(validaIdade(idade)); 
 */
 
+
 function clicou(){
     alert("Obrigado por clicar.");
 }
